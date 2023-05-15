@@ -3,6 +3,35 @@ Python mininet project
 
 # Running project locally
 
+## Visualize topology to graph in jpg.
+
+First of all we have to set up our python virtual environment, make sure that you are in the base directory of project (in command prompt).
+Enter the command below.
+```pycon
+python3 -m venv venv
+```
+
+Then we have to activate created virtual environment.
+```commandline
+source venv/bin/activate
+```
+
+On left side of command prompt line there will be shown a "(venv)" text. That means we are activated virtual environment.
+
+Next step is installing required libraries for project.
+```pycon
+pip install -r requirements.txt
+```
+
+Then run:
+```pycon
+python3 test.py
+```
+
+Provide a filename and et voilà! - We have our topology on an image that creates into script running directory :)
+
+## Other way to visualize Topology by dumping info from mininet. 
+
 First of all we have to set up our python virtual environment, make sure that you are in the base directory of project (in command prompt).
 Enter the command below.
 ```pycon
@@ -23,7 +52,8 @@ pip install -r requirements.txt
 
 To run python mininet script type:
 ```commandline
-sudo python3 test.py
+sudo -s
+python3 test.py
 ```
 
 Then type in mininet> :
