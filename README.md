@@ -28,9 +28,9 @@ Then run:
 python3 test.py
 ```
 
-Provide a filename and et voilà! - We have our topology on an image that creates into script running directory :)
+Now create your own topology by console interface!
 
-## Other way to visualize Topology by dumping info from mininet. 
+## Other way to visualize Topology by dumping info from mininet. (WARNING, NOW THIS WAY IS NOT WORKING BECAUSE OF CONSOLE INTERFACE.)
 
 First of all we have to set up our python virtual environment, make sure that you are in the base directory of project (in command prompt).
 Enter the command below.
